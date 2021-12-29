@@ -2,12 +2,64 @@
 
 font-family: 'Oxygen', sans-serif; */
 
+:root {
+    --primary-color: pink;
+    --secondary-color: white;
+    --default-font-family: "Oxygen", sans-serif;
+    --heading-font-family: "Libre Baskerville", serif;
+}
 
-h1 {
-    font-family: 'Libre Baskerville', serif;
-    color: blue;
+body {
+    margin: 0;
+    font-family: var(--default-font-family);
+}
+
+h1, 
+h2, 
+h3, 
+h4 {
+    font-family: var(--heading-font-family);
+    font-weight: bold;
 }
 
 p {
-    font-family: 'Oxygen', sans-serif;
+    font-family: var(--default-font-family);
+}
+
+.hero {
+    color: var(--secondary-color);
+    text-align: center;
+    background-color: black;
+    padding: 120px 30px;
+    margin: 0;
+}
+
+.hero h1 {
+    margin: 0;
+    color: var(--primary-color);
+    font-size: 96px;
+    line-height: 2;
+}
+
+.hero h2 {
+    margin: 0;
+    font-family: var(--default-font-family);
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.hero h3 {
+    margin: 0;
+    font-family: var(--default-font-family);
+    font-size: 36px;
+}
+
+.btn-branding {
+    background: var(--primary-color);
+    border-radius: 4px;
+    color: var(--secondary-color);
+    font-size: 18px;
+    line-height: 26px;
+    padding: 15px 30px;
+    text-decoration: none;
 }
