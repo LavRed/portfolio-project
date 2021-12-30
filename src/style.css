@@ -33,6 +33,11 @@ p {
     line-height: 30px;
 }
 
+.navbar-nav {
+    position: absolute;
+    right: 0;
+}
+
 .hero {
     color: var(--secondary-color);
     text-align: center;
