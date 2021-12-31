@@ -33,9 +33,30 @@ p {
     line-height: 30px;
 }
 
+.navbar {
+    background: black;
+}
 .navbar-nav {
     position: absolute;
     right: 0;
+}
+
+.nav-item {
+    padding: 8px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.active {
+    color: var(--primary-color);
+}
+
+.navbar-brand {
+    border: 1px solid white;
+    padding: 4px;
+    color: var(--primary-color) !important;
 }
 
 .hero {
