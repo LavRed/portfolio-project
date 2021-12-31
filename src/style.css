@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    border: 3px solid black;
+    border: 5px solid black;
     margin: 0;
     font-family: var(--default-font-family);
 }
@@ -90,7 +90,7 @@ p {
 }
 
 .project-image {
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 .footer {
@@ -106,6 +106,48 @@ p {
     font-weight: bolder;
 }
 
+.about-hero {
+    color: var(--secondary-color);
+    text-align: center;
+    background-color: black;
+    padding: 60px 30px;
+    margin: 0;
+}
+
+.about-hero h1 {
+    margin: 0;
+    color: var(--primary-color);
+    font-size: 96px;
+    line-height: 2;
+}
+
+.about-hero h2 {
+    margin: 0;
+    font-family: var(--default-font-family);
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.about-section h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+.image-placeholder {
+    padding: 20px 40px;
+}
+
+.my-image {
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+    width: 500px;
+}
+
+.about-information {
+    font-size: 20px;
+    padding: 40px;
+    line-height: 1.5;
+}
 
 @media (max-width: 900px) {
     .hero {
@@ -131,4 +173,12 @@ p {
     .icon {
         text-align: center;
     }
+
+    .about-hero h1 {
+        margin: 0;
+        color: var(--primary-color);
+        font-size: 50px;
+        line-height: 1.5;
+    }    
+    
 }
