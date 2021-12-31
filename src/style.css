@@ -3,8 +3,8 @@
 font-family: 'Oxygen', sans-serif; */
 
 :root {
-    --primary-color: pink;
-    --secondary-color: white;
+    --primary-color: #f48db4;
+    --secondary-color: #fafafa;
     --default-font-family: "Oxygen", sans-serif;
     --heading-font-family: "Libre Baskerville", serif;
 }
@@ -46,7 +46,7 @@ p {
 }
 
 .nav-link {
-    color: white;
+    color: var(--secondary-color);
 }
 
 .active {
@@ -54,7 +54,7 @@ p {
 }
 
 .navbar-brand {
-    border: 1px solid white;
+    border: 1px solid var(--secondary-color);
     padding: 4px;
     color: var(--primary-color) !important;
 }
@@ -114,19 +114,6 @@ p {
     padding-top: 20px;
 }
 
-.footer {
-    text-align: center;
-    font-size: 12px;
-    color: grey;
-    padding: 20px;
-}
-
-.icon {
-    color: violet;
-    font-size: 40px;
-    font-weight: bolder;
-}
-
 .about-hero {
     color: var(--secondary-color);
     text-align: center;
@@ -183,6 +170,37 @@ p {
     text-transform: uppercase;
 }
 
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: grey;
+    margin: 60px 0;
+}
+
+.email-link {
+    text-decoration: none;
+    color: grey;
+    font-size: 24px;
+    line-height: 2;
+}
+
+footer .social-links a {
+    margin: 0 15px;
+    transition: all 150mx ease-in-out;
+}
+
+.icon {
+    color: #ff347f;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.icon:hover {
+    font-size: 45px;
+    color: var(--primary-color);
+}
+
+
 @media (max-width: 900px) {
     .hero {
         padding: 80px 20px;
@@ -198,7 +216,7 @@ p {
         text-align: center;
     }
 
-    .footer {
+    footer {
         text-align: left;
         font-size: 10px;
         color: grey;
