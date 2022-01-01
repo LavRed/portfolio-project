@@ -37,6 +37,7 @@ p {
     background: black;
 }
 .navbar-nav {
+    background: black;
     position: absolute;
     right: 0;
 }
