@@ -170,6 +170,10 @@ p {
     text-transform: uppercase;
 }
 
+.future-project-description {
+    padding: 40px 60px;
+}
+
 footer {
     text-align: center;
     font-size: 12px;
@@ -216,8 +220,13 @@ footer .social-links a {
         text-align: center;
     }
 
+    .future-project-description {
+        padding: 0;
+        text-align: center;
+    }
+    
     footer {
-        text-align: left;
+        text-align: center;
         font-size: 10px;
         color: grey;
     }
